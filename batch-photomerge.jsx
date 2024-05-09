@@ -18,7 +18,6 @@ function main() {
     }
 }
 
-
 // Show dialog to get user settings
 function showDialog() {
     var dialog = new Window("dialog", "Panorama Image Joiner || Beta 0.0001");
@@ -137,7 +136,5 @@ function createPanorama(sourceFolder, files, outputFolder, settings) {
         }
     }
 }
-
-
 
 main();
