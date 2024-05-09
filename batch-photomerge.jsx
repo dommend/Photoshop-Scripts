@@ -122,7 +122,6 @@ function createPanorama(sourceFolder, files, outputFolder, settings) {
             throw new Error("No images found to create the panorama.");
         }
 
-        // Oletetaan, että aktiivinen dokumentti on uusi panoraama
         var finalDoc = app.activeDocument;
         var filename = settings.prefix + sourceFolder.name + ".jpg";
         var saveFile = new File(outputFolder + "/" + filename);
